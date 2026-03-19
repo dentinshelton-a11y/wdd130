@@ -2,7 +2,7 @@
     --primary-color: #055a05; 
     --secondary-color: #f49261; 
     --accent1-color: #243c9b; 
-    --accent2-color: #4eec2a; 
+    --accent2-color: #28950f; 
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -58,17 +58,17 @@ nav, p, section, article{
 .hero article {
     position: absolute;
     left: -16px;
-
     bottom: 0;
     width: 100%;
     text-align: left;
     opacity: 0.9;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
 .hero article img{
     position: absolute;
+    float: right;
     bottom: 20px;
     right: 50px;    
     width: 120px;
