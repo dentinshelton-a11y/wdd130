@@ -66,10 +66,13 @@ nav, p, section, article{
     color: #fff;
 }
 
+.hero h2{
+    color: #fff;
+}
+
 .hero article img{
     position: absolute;
     float: right;
-    clear: both;
     bottom: 20px;
     right: 50px;    
     width: 120px;
