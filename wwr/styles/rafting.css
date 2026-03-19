@@ -1,6 +1,6 @@
 :root {
     --primary-color: #055a05; 
-    --secondary-color: #f49261; 
+    --secondary-color: #101086; 
     --accent1-color: #243c9b; 
     --accent2-color: #28950f; 
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -62,13 +62,14 @@ nav, p, section, article{
     width: 100%;
     text-align: left;
     opacity: 0.9;
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     color: #fff;
 }
 
 .hero article img{
     position: absolute;
     float: right;
+    clear: both;
     bottom: 20px;
     right: 50px;    
     width: 120px;
