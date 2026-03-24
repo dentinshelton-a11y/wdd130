@@ -1,27 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
+
 :root {
     --background-color: solid green;
     --padding: 1rem;
     --text-color: white;
 }
+
 main {
     max-width: 840px;
 }
-main img{
+
+main img {
     width: 150px;
     height: auto;
-    
+
     border: 1px solid black;
     padding: var(--padding);
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem
 }
+
 nav {
     background-color: var(--background-color);
     display: block;
@@ -34,59 +38,55 @@ nav a {
     padding: var(--padding);
 }
 
-h1{
+h1 {
     color: var(--background-color);
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
-    padding:  var(--padding);
+    padding: var(--padding);
     text-align: center;
     position: relative;
 
 }
+
 aside img {
     width: 200px;
     height: auto;
 
 }
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 2px solid green;
-    padding:  2rem;
-    background-color: blue;
-    color: white;
-    text-align: center;
-    
 
 aside h2 {
     position: absolute;
     top: 50px;
     left: 95px;
-    
+
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
     border: 2px solid green;
-    padding:  2rem;
+    padding: 2rem;
     background-color: blue;
     color: white;
     text-align: center;
-    
 
 }
+
 aside img {
     width: 200px;
     height: auto;
 
 }
+
 main img {
     width: 150px;
     height: auto;
 
 }
+
 img {
     width: 150px;
     height: auto;
@@ -99,6 +99,7 @@ img {
 p {
     padding: 0px;
 }
+
 footer {
     margin-top: 3px;
     border-top: 2px black;
@@ -107,6 +108,7 @@ footer {
     box-shadow: 0 0 30px gray;
     text-align: center;
 }
+
 ul {
     display: block;
     list-style-type: disc;
@@ -115,11 +117,13 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-    
+
 }
+
 p {
     padding: var(--padding);
 }
+
 footer {
     margin-top: 3px;
     border-top: 2px black;
@@ -127,9 +131,9 @@ footer {
 }
 
 /* Class Selectors */
-.box{
+.box {
     margin: 1rem;
-    border: 1px solid rgba(o,o,o,.1);
+    border: 1px solid rgba(o, o, o, .1);
     padding: 1rem;
     background-color: #eee;
     color: #000;
