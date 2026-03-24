@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    --background-color: solid green;
+    --padding: 1rem;
+    --text-color: white;
+}
 main {
     max-width: 840px;
 }
@@ -5,21 +16,55 @@ main img{
     width: 150px;
     height: auto;
     
+    border: 1px solid black;
+    padding: var(--padding);
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem
 }
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     display: block;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--bacground-color);
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1{
-    color:darkblue;
+    color: var(--background-color);
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    padding:  var(--padding);
+    text-align: center;
+    position: relative;
+
+}
+aside img {
+    width: 200px;
+    height: auto;
+
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 2px solid green;
+    padding:  2rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    
+
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    
 }
 aside {
     width: 20rem;
@@ -58,4 +103,34 @@ footer {
     margin-top: 3px;
     border-top: 2px black;
     text-align: center;
+    padding: var(--padding);
+    box-shadow: 0 0 30px gray;
+    text-align: center;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+p {
+    padding: var(--padding);
+}
+footer {
+    margin-top: 3px;
+    border-top: 2px black;
+    text-align: center;
+}
+
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(o,o,o,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
 }
