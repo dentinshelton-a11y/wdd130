@@ -32,12 +32,39 @@ h2 {
 
 nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+header img{
+    max-width: 175px;
+    height: auto;
+    margin:  0 50px ;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+
+}
+.navigation li{
+    flex: 1 1 auto;
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 .socialmedia a {
     text-decoration: none;
 }
@@ -84,4 +111,43 @@ article {
     right: 50px;
     width: 120px;
     height: auto;
+}
+h2{
+    color: Black;
+    text-align: center;
+}
+
+.history p {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+}
+.history img {
+    max-width: 250px;
+}
+.adventure{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 840px;
+    
+}
+.adventure img {
+    grid-row: 1/2;
+    max-width: 120px;
+    max-height: auto;
+}
+.adventure figure {
+    border: thin silver solid;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+.adventure figcaption {
+    grid-row: 2/3;
+    background-color: #222222;
+    color: white;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
