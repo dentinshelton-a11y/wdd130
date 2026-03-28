@@ -65,6 +65,14 @@ header img{
     text-decoration: none;
     font-size: 1.2rem;
 }
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+}
+.socialmedia img {
+    max-width: 50px;
+    padding: 3px;
+}
 .socialmedia a {
     text-decoration: none;
 }
