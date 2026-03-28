@@ -141,7 +141,7 @@ h2{
 .adventure img {
     grid-row: 1/2;
     max-width: 120px;
-    max-height: auto;
+    height: auto;
 }
 .adventure figure {
     border: thin silver solid;
