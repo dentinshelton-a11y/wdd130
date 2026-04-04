@@ -287,34 +287,6 @@ button {
     text-align: center;
 }
 
-.employees {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 840px;
-
-}
-
-.employees img {
-    max-height: 120px;
-    width: auto;
-}
-
-.employees figure {
-    border: thin silver solid;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-}
-
-.employees figcaption {
-    grid-row: 2/3;
-    background-color: #222222;
-    color: white;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-}
-
 .socialmedia {
     display: flex;
     justify-content: flex-end;
