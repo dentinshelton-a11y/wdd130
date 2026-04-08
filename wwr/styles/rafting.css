@@ -22,8 +22,21 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    
 }
 
+section{
+    background-color: rgb(210, 202, 202);
+    padding: 5px;
+}
+
+header, footer{
+    border: 4px solid rgb(0 0 0 / 10%);
+    border-color: #222222;
+    
+    box-shadow: #222222;
+    background-color: aqua;
+}
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -34,7 +47,7 @@ nav,
 p,
 article {
     margin: 16px;
-    padding: 8px;
+  
 }
 
 header {
@@ -42,8 +55,9 @@ header {
     display: grid;
     grid-template-columns: 300px 1fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
     max-width: 1000px;
+    padding: 10px;
+
 }
 
 header img {
@@ -121,38 +135,41 @@ h2 {
 
 .info {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     max-width: 840px;
 
 }
 
 .info article {
-    grid-column: 1/5;
+    grid-column: 1/3;
     grid-row: 1/2;
     text-align: center;
 }
 
 .info iframe {
-    grid-column: 1/3;
-    grid-row: 2/6;
+    grid-column: 1/2;
+    grid-row: 2/3;
     width: 420px;
-    height: 600px;
+    height: 450px;
+    padding: 5px;
+    /* border: none; */
+    margin: 10px;
+    
 }
 
 .info form {
 
-    grid-column: 3/5;
-    grid-row: 2/6;
+    grid-column: 2/3;
+    grid-row: 2/3;
     width: 420px;
-    height: 300px;
+    height: 450px;
 
 }
 
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 /10%);
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .checkbox {
@@ -263,6 +280,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 840px;
+   
 
 }
 
@@ -294,7 +312,7 @@ button {
 
 .socialmedia img {
     max-width: 50px;
-    padding: 3px;
+    /* padding: 3px; */
 }
 
 .socialmedia a {
