@@ -47,6 +47,7 @@ nav,
 p,
 article {
     margin: 16px;
+    max-width: 840px;
   
 }
 
@@ -240,7 +241,7 @@ button {
 
 .history p {
     display: grid;
-    grid-template-columns: 280px 280px 280px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .history img {
