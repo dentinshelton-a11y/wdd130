@@ -43,7 +43,7 @@ section{
     background-color: rgb(210, 202, 202);
     padding: 5px;
     border-width: 3px;
-    box-shadow: black;
+    box-shadow: #000;
     border-color: black;
 }
 
@@ -73,7 +73,7 @@ section{
 }
 header, footer{
     border: 4px solid rgb(0 0 0 / 10%);
-    border-color: #222222;
+    border-color: #000;
     
     box-shadow: #222222;
     background-color: aqua;
