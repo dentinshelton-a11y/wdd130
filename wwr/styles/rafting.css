@@ -31,6 +31,10 @@ footer {
    place-items: center;
    background-color: rgb(95, 151, 200);
 }
+.join-us h1{
+    text-align: center;
+    color: #000;
+}
 .join-us p{
     color: #222222;
        
@@ -40,14 +44,14 @@ footer {
 
 }
 section{
-    background-color: rgb(210, 202, 202);
     padding: 5px;
     border-width: 3px;
-    box-shadow: #000;
+    
     border-color: black;
 }
 
 .enjoy{
+    background-color: #7fb5ec;
     display: grid;
     grid-template-columns: 1fr 1fr;
     
@@ -64,7 +68,7 @@ section{
     height: auto;
     justify-self: center;
 }
-.enjoy figcaption{
+.enjoy h3{
     text-align: center;
     color: var(--primary-color);
 }
@@ -75,7 +79,7 @@ header, footer{
     border: 4px solid rgb(0 0 0 / 10%);
     border-color: #000;
     
-    box-shadow: #222222;
+   
     background-color: aqua;
 }
 h1,
@@ -306,7 +310,7 @@ button {
     max-width: 840px;
 
 }
-h5{
+.contact-us {
     font-size: xx-large;
     width: 840px;
     text-align: center;
