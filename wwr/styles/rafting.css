@@ -306,7 +306,12 @@ button {
     max-width: 840px;
 
 }
-
+h5{
+    font-size: xx-large;
+    width: 840px;
+    text-align: center;
+    padding: 15px;
+}
 .adventure img {
     grid-row: 1/2;
     max-width: 120px;
@@ -370,4 +375,51 @@ button {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+table {
+    width: 840px;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #000;
+}
+th{
+    background-color: aqua;
+    font-size: larger;
+}
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+
+}
+
+thead th,
+tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+.beginners img{
+    width: 840px;
+}
+.trips-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.trips-section h3,
+.trips-section h4{
+    text-align: center;
+}
+.trips-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+
 }
